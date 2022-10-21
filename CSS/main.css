@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+header{
+    text-align: center;
+    font-size: 50px;
+    opacity: 0.68;
+}
+body{
+    height: 100vh;
+    background: url('wallpaperflare.com_wallpaper\ \(1\).jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+main{
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main p{
+    width: 700px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 70px;
+    background-color: rgba(145, 192, 189, 0.5);
+    color: rgb(6, 9, 79);
+    border-radius: 20px;
+}
+.btn{
+    width: 200px;
+    height: 60px;
+    outline: none;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-top: 50px;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+    background: linear-gradient(#b8acbe,#043156);
+}
+.btn:hover{
+    transform: translateY(5px);
+    transition: 0.3s;
+    color: rgb(5, 0, 3);
+}
